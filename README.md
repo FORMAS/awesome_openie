@@ -797,6 +797,19 @@ An OIE system aims to make the following extractions:
 
    Injy Sarhan, Marco Spruit
 
+* *[" BenchIE: Open Information Extraction Evaluation Based on Facts, Not Tokens"](https://arxiv.org/abs/2109.06850)* -arXiv preprint
+* 
+   Gashteovski, Kiril and Yu, Mingying and Kotnis, Bhushan and Lawrence, Carolin and Glavas, Goran and Niepert, Mathias
+
+### 2022
+
+* *[" DetIE: Multilingual Open Information Extraction Inspired by Object Detection"](https://arxiv.org/abs/2109.06850)* -Proccedings of the 36th AAAI Conference on Artificial Intelligence
+* 
+   Michael Vasilkovsky, Anton Alekseev, Valentin Malykh, Ilya Shenbin, Elena Tutubalina, Dmitriy Salikhov, Mikhail Stepnov, Andrei Chertok and Sergey Nikolenk
+   
+* *[" PortNOIE: A Neural Framework for Open Information Extraction for the Portuguese Language"](https://link.springer.com/chapter/10.1007/978-3-030-98305-5_23)* PROPOR 2022: 15th International Conference on Computational Processing of Portuguese 
+* 
+  Bruno Cabral, Marlo Souza & Daniela Barreiro Claro 
 
 ## Papers grouped by category
 
@@ -1280,7 +1293,8 @@ Slides: [\[pptx\]](https://akbcwekex2012.files.wordpress.com/2012/06/slides-oren
 * [IMPLIE:](https://github.com/knowitall/implie) IMPLIE (IMPLicit relation Information Extraction) is a program that extracts binary relations from English sentences where the relationship between the two entities is not explicitly stated in the text.
 * [Ranking:](https://github.com/jzbjyb/oie_rank) Iterative Rank-Aware Open IE (confidence score).
 * [Open-CyKG: An Open Cyber Threat Intelligence Knowledge Graph:](https://github.com/IS5882/Open-CyKG): Implementation of attention-based OIE, KG construction and canonicalization.
-
+* [BenchIE: Open Information Extraction Evaluation Based on Facts, Not Tokens:](https://github.com/gkiril/benchie): Implementation of Benchmark for Open Information Extraction.
+* [DetIE: Multilingual Open Information Extraction Inspired by Object Detection:](https://github.com/sberbank-ai/DetIE): Implementation of Multilingual Open Information Extraction Inspired by Object Detection.
 ## Data
 
 OIE output is used as a useful input in many other downstream tasks, such as question answering, event schema induction or generating inference rules. Moreover, OIE output can be used as a "fuel" to derive further resources. Here, the data is organized into two major categories: 1) OIE corpora; 2) Resources derived from OIE output.
