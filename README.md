@@ -798,17 +798,17 @@ An OIE system aims to make the following extractions:
    Injy Sarhan, Marco Spruit
 
 * *[" BenchIE: Open Information Extraction Evaluation Based on Facts, Not Tokens"](https://arxiv.org/abs/2109.06850)* -arXiv preprint
-* 
+
    Gashteovski, Kiril and Yu, Mingying and Kotnis, Bhushan and Lawrence, Carolin and Glavas, Goran and Niepert, Mathias
 
 ### 2022
 
 * *[" DetIE: Multilingual Open Information Extraction Inspired by Object Detection"](https://arxiv.org/abs/2109.06850)* -Proccedings of the 36th AAAI Conference on Artificial Intelligence
-* 
+
    Michael Vasilkovsky, Anton Alekseev, Valentin Malykh, Ilya Shenbin, Elena Tutubalina, Dmitriy Salikhov, Mikhail Stepnov, Andrei Chertok and Sergey Nikolenk
    
 * *[" PortNOIE: A Neural Framework for Open Information Extraction for the Portuguese Language"](https://link.springer.com/chapter/10.1007/978-3-030-98305-5_23)* PROPOR 2022: 15th International Conference on Computational Processing of Portuguese 
-* 
+
   Bruno Cabral, Marlo Souza & Daniela Barreiro Claro 
 
 ## Papers grouped by category
