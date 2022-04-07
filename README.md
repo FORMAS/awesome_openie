@@ -811,6 +811,12 @@ An OIE system aims to make the following extractions:
 
   Bruno Cabral, Marlo Souza & Daniela Barreiro Claro 
 
+* *[" MillIE: Modular & Iterative Multilingual Open Information Extraction"](https://openreview.net/pdf?id=KNqKOUnl_3F)* 60th Annual Meeting of the Association for Computational Linguistics (ACL)
+
+  hushan Kotnis, Kiril Gashteovski, Daniel Onoro Rubio, Ammar Shaker, Vanesa Rodriguez-Tembras, Makoto Takamoto, Mathias Niepert, Carolin Lawrence
+  
+
+
 ## Papers grouped by category
 
 ### Surveys
