@@ -1061,6 +1061,10 @@ Most of the OIE systems are focused on extractions made from text written on Eng
 * [*"DependentIE: An Open Information Extraction system on Portuguese by a Dependence Analysis"*](https://www.researchgate.net/profile/Rafael_Glauber/publication/324759625_DependentIE_An_Open_Information_Extraction_system_on_Portuguese_by_a_Dependence_Analysis/links/5ae0e48faca272fdaf8d8979/DependentIE-An-Open-Information-Extraction-system-on-Portuguese-by-a-Dependence-Analysis.pdf) - ENIAC 2017
 
   Leandro Souza de Oliveira, Rafael Glauber, Daniela Barreiro Claro
+
+* *[" PortNOIE: A Neural Framework for Open Information Extraction for the Portuguese Language"](https://link.springer.com/chapter/10.1007/978-3-030-98305-5_23)  - PROPOR 2022: 15th International Conference on Computational Processing of Portuguese 
+
+  Bruno Cabral, Marlo Souza & Daniela Barreiro Claro 
   
 #### OIE Systems for Spanish Language
 
