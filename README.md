@@ -31,7 +31,7 @@ All work is done by Kiril Gashteovski on https://github.com/gkiril/oie-resources
   * [OIE for downstream applications](#oie-for-downstream-applications)
     * [Question Answering](#question-answering)
     * [Slot Filling](#slot-filling)
-    * [Event Schema Induction](#event-schema-induction)
+    * [Event Extraction](#event-extraction)
     * [Text Summarization](#text-summarization)
     * [Knowledge Base Population](#knowledge-base-population)
     * [Knowledge Base Construction](#knowledge-base-construction)
@@ -797,11 +797,39 @@ An OIE system aims to make the following extractions:
 
    Injy Sarhan, Marco Spruit
 
-* *[" BenchIE: Open Information Extraction Evaluation Based on Facts, Not Tokens"](https://arxiv.org/abs/2109.06850)* -arXiv preprint
-
-   Gashteovski, Kiril and Yu, Mingying and Kotnis, Bhushan and Lawrence, Carolin and Glavas, Goran and Niepert, Mathias
-
 ### 2022
+
+* [*"BenchIE: A Framework for Multi-Faceted Fact-Based Open Information Extraction Evaluation"*](https://aclanthology.org/2022.acl-long.307/) - ACL 2022 ([code](https://github.com/gkiril/benchie))
+
+   Kiril Gashteovski, Mingying Yu, Bhushan Kotnis, Carolin Lawrence, Mathias Niepert, Goran Glavaš
+   
+* [*"MILIE: Modular & Iterative Multilingual Open Information Extraction"*](https://aclanthology.org/2022.acl-long.478/) - ACL 2022 
+
+   Bhushan Kotnis, Kiril Gashteovski, Daniel Rubio, Ammar Shaker, Vanesa Rodriguez-Tembras, Makoto Takamoto, Mathias Niepert, Carolin Lawrence
+
+* [*Alignment-Augmented Consistent Translation for Multilingual Open Information Extraction"*](https://aclanthology.org/2022.acl-long.179/) - ACL 2022 ([code](https://github.com/dair-iitd/moie))
+
+   Keshav Kolluru, Muqeeth Mohammed, Shubham Mittal, Soumen Chakrabarti, Mausam
+
+* [*"OIE@OIA: an Adaptable and Efficient Open Information Extraction Framework"*](https://aclanthology.org/2022.acl-long.430/) - ACL 2022 
+
+   Xin Wang, Minlong Peng, Mingming Sun, Ping Li
+   
+* [*"Open Relation Modeling: Learning to Define Relations between Entities"*](https://aclanthology.org/2022.findings-acl.26/) - ACL 2022 ([code](https://github.com/jeffhj/open-relation-modeling))
+
+   Jie Huang, Kevin Chang, Jinjun Xiong, Wen-mei Hwu
+   
+* [*"DeepStruct: Pretraining of Language Models for Structure Prediction"*](https://aclanthology.org/2022.findings-acl.67/) - ACL 2022 ([code](https://github.com/cgraywang/deepstruct))
+
+   Chenguang Wang, Xiao Liu, Zui Chen, Haoyun Hong, Jie Tang, Dawn Song
+      
+* [*"AnnIE: An Annotation Platform for Constructing Complete Open Information Extraction Benchmark"*](https://aclanthology.org/2022.acl-demo.5/) - ACL 2022 ([code](https://github.com/nfriedri/annie-annotation-platform))
+
+   Niklas Friedrich, Kiril Gashteovski, Mingying Yu, Bhushan Kotnis, Carolin Lawrence, Mathias Niepert, Goran Glavaš
+
+* [*"A Survey on Neural Open Information Extraction: Current Status and Future Directions"*](https://arxiv.org/pdf/2205.11725.pdf) - CoRR 2022
+
+   Shaowen Zhou, Bowen Yu, Aixin Sun, Cheng Long, Jingyang Li, Jian Sun
 
 * *[" DetIE: Multilingual Open Information Extraction Inspired by Object Detection"](https://arxiv.org/abs/2109.06850)* -Proccedings of the 36th AAAI Conference on Artificial Intelligence
 
@@ -811,9 +839,7 @@ An OIE system aims to make the following extractions:
 
   Bruno Cabral, Marlo Souza & Daniela Barreiro Claro 
 
-* *[" MillIE: Modular & Iterative Multilingual Open Information Extraction"](https://openreview.net/pdf?id=KNqKOUnl_3F)* 60th Annual Meeting of the Association for Computational Linguistics (ACL)
 
-  hushan Kotnis, Kiril Gashteovski, Daniel Onoro Rubio, Ammar Shaker, Vanesa Rodriguez-Tembras, Makoto Takamoto, Mathias Niepert, Carolin Lawrence
   
 
 
@@ -841,6 +867,9 @@ An OIE system aims to make the following extractions:
 
    Daniela Barreiro Claro, Marlo Souza, Clarissa Castellã Xavier, Leandro Souza de Oliveira
 
+* [*"A Survey on Neural Open Information Extraction: Current Status and Future Directions"*](https://arxiv.org/pdf/2205.11725.pdf) - CoRR 2022
+
+   Shaowen Zhou, Bowen Yu, Aixin Sun, Cheng Long, Jingyang Li, Jian Sun
 ### Evaluation
 
 * *["Creating a Large Benchmark for Open Information Extraction"](https://aclweb.org/anthology/D16-1252)* - EMNLP 2016 ([code](https://github.com/gabrielStanovsky/oie-benchmark), [talk](https://vimeo.com/239251034))
@@ -891,11 +920,21 @@ An OIE system aims to make the following extractions:
 
    Kiril Gashteovski, Rainer Gemulla, Bhushan Kotnis, Sven Hertling, Christian Meilicke
   
+* [*"BenchIE: A Framework for Multi-Faceted Fact-Based Open Information Extraction Evaluation"*](https://aclanthology.org/2022.acl-long.307/) - ACL 2022 ([code](https://github.com/gkiril/benchie))
+
+   Kiril Gashteovski, Mingying Yu, Bhushan Kotnis, Carolin Lawrence, Mathias Niepert, Goran Glavaš
+   
+  
 ### OIE for downstream applications
 
 OIE's output has been shown to be a useful input for many downstream tasks. In this section, several downstream tasks that benefited from OIE output are listed. 
 
 #### Question Answering
+
+* [*"Guiding the Growth: Difficulty-Controllable Question Generation through Step-by-Step Rewriting"*](https://aclanthology.org/2021.acl-long.465/) - ACL 2021
+
+   Yi Cheng, Siyao Li, Bang Liu, Ruihui Zhao, Sujian Li, Chenghua Lin, Yefeng Zheng
+
 * [*"Assertion-based QA with Question-Aware Open Information Extraction"*](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16705/16170) AAAI 2018
 
   Zhao Yan, Duyu Tang, Nan Duan, Shujie Liu, Wendi Wang, Daxin Jiang, Ming Zhou, Zhoujun Li
@@ -931,11 +970,15 @@ OIE's output has been shown to be a useful input for many downstream tasks. In t
    Dian Yu, Lifu Huang, Heng Ji
 
 
-#### Event Schema Induction
+#### Event Extraction
 
 * [*"Generating Coherent Event Schemas at Scale"*](http://turing.cs.washington.edu/papers/emnlp-2013-niranjan.pdf) - EMNLP 2013
 
   Niranjan Balasubramanian, Stephen Soderland, Mausam, Oren Etzioni
+
+* [*"Cross-document Event Identity via Dense Annotation"*](https://aclanthology.org/2021.conll-1.39/) - CoNLL 2021
+
+   Adithya Pratapa, Zhengzhong Liu, Kimihiro Hasegawa, Linwei Li, Yukari Yamakawa, Shikun Zhang, Teruko Mitamura
 
 #### Text Summarization
 
@@ -955,6 +998,19 @@ OIE's output has been shown to be a useful input for many downstream tasks. In t
 
    Yumo Xu, Mirella Lapata
 
+* [*"Summary Explorer: Visualizing the State of the Art in Text Summarization"*](https://aclanthology.org/2021.emnlp-demo.22/) - EMNLP 2021
+
+   Shahbaz Syed, Tariq Yousef, Khalid Al Khatib, Stefan Jänicke, Martin Potthast
+
+   
+* [*"Generating Query Focused Summaries from Query-Free Resources"*](https://aclanthology.org/2021.acl-long.475/) - ACL 2021
+
+   Yumo Xu, Mirella Lapata
+   
+* [*"Focus on the Action: Learning to Highlight and Summarize Jointly for Email To-Do Items Summarization"*](https://aclanthology.org/2022.findings-acl.323/) - ACL 2022
+
+   Kexun Zhang, Jiaao Chen, Diyi Yang
+   
    
 #### Knowledge Base Population
 
