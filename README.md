@@ -763,7 +763,7 @@ An OIE system aims to make the following extractions:
    
 * [*"OKGIT: Open Knowledge Graph Link Prediction with Implicit Types"*](https://aclanthology.org/2021.findings-acl.225/) - ACL 2021
 
-   	Chandrahas, Partha Pratim Talukdar
+       Chandrahas, Partha Pratim Talukdar
    
 * [*"LSOIE: A Large-Scale Dataset for Supervised Open Information Extraction"*](https://aclanthology.org/2021.eacl-main.222/) - EACL 2021 ([code and data](https://github.com/Jacobsolawetz/large-scale-oie)) 
 
@@ -779,7 +779,7 @@ An OIE system aims to make the following extractions:
    
 * [*"Joint Open Knowledge Base Canonicalization and Linking"*](https://dl.acm.org/doi/abs/10.1145/3448016.3452776) - SIGMOD 2021
 
-   	Yinan Liu, Wei Shen, Yuanfei Wang, Jianyong Wang, Zhenglu Yang, Xiaojie Yuan
+       Yinan Liu, Wei Shen, Yuanfei Wang, Jianyong Wang, Zhenglu Yang, Xiaojie Yuan
     
 * [*"TENET: Joint Entity and Relation Linking with Coherence Relaxation"*](https://dl.acm.org/doi/abs/10.1145/3448016.3457280) - SIGMOD 2021
 
@@ -796,6 +796,10 @@ An OIE system aims to make the following extractions:
 * *[" Open-CyKG: An Open Cyber Threat Intelligence Knowledge Graph"](https://www.sciencedirect.com/science/article/pii/S0950705121007863)* - Knowledge-Based Systems 2021
 
    Injy Sarhan, Marco Spruit
+
+* *["Universal Dependencies for Multilingual Open Information Extraction"](https://drops.dagstuhl.de/opus/volltexte/2021/14560/pdf/OASIcs-LDK-2021-24.pdf)* - 3rd Conference on Language, Data and Knowledge, LDK 2021
+
+   Massinissa Atmani, Mathieu Lafourcade
 
 ### 2022
 
@@ -839,8 +843,21 @@ An OIE system aims to make the following extractions:
 
   Bruno Cabral, Marlo Souza & Daniela Barreiro Claro 
 
+* *[" LILLIE: Information extraction and database integration using linguistics and learning-based algorithms"](https://www.sciencedirect.com/science/article/pii/S030643792100137X)* - Information Systems 2022
 
+   Ellery Smith, Dimitris Papadopoulos, Martin Braschler, Kurt Stockinger
   
+* *["CompactIE: Compact Facts in Open Information Extraction"](https://arxiv.org/abs/2205.02880)* - ArXiv 2022
+
+   Farimah Bayat and Nikita Bhutani and H. V. Jagadish
+
+* [*"Alignment-Augmented Consistent Translation for Multilingual Open Information Extraction"*](https://aclanthology.org/2022.acl-long.179/) - ACL 2022
+
+  Keshav Kolluru, Mohammed Muqeeth, Shubham Mittal, Soumen Chakrabarti, Mausam
+
+* [*"DeepStruct: Pretraining of Language Models for Structure Prediction "*](https://aclanthology.org/2022.findings-acl.67/) - ACL 2022
+
+   Chenguang Wang, Xiao Liu, Zui Chen, Haoyun Hong, Jie Tang, Dawn Song
 
 
 ## Papers grouped by category
@@ -1100,6 +1117,11 @@ Most of the OIE systems are focused on extractions made from text written on Eng
 
   Pablo Gamallo, Marcos García
 
+* [*"Alignment-Augmented Consistent Translation for Multilingual Open Information Extraction"*](https://aclanthology.org/2022.acl-long.179/) - ACL 2022
+
+  Keshav Kolluru, Mohammed Muqeeth, Shubham Mittal, Soumen Chakrabarti, Mausam
+
+
 #### OIE Systems for German Language
 
 * [*"GerIE - An Open Information Extraction System for the German Language"*](http://www.jucs.org/jucs_24_1/gerie_an_open_information/jucs_24_01_0002_0024_bassa.pdf) - J. UCS 2018
@@ -1358,9 +1380,16 @@ Slides: [\[pptx\]](https://akbcwekex2012.files.wordpress.com/2012/06/slides-oren
 * [CESI:](https://github.com/malllabiisc/cesi) Canonicalizing Open Knowledge Bases using Embeddings and Side Information
 * [IMPLIE:](https://github.com/knowitall/implie) IMPLIE (IMPLicit relation Information Extraction) is a program that extracts binary relations from English sentences where the relationship between the two entities is not explicitly stated in the text.
 * [Ranking:](https://github.com/jzbjyb/oie_rank) Iterative Rank-Aware Open IE (confidence score).
+* [Zero-Shot Information Extraction as a Unified Text-to-Triple Translation:](https://github.com/cgraywang/deepex): Implementation of Zero-Shot Information Extraction
 * [Open-CyKG: An Open Cyber Threat Intelligence Knowledge Graph:](https://github.com/IS5882/Open-CyKG): Implementation of attention-based OIE, KG construction and canonicalization.
 * [BenchIE: Open Information Extraction Evaluation Based on Facts, Not Tokens:](https://github.com/gkiril/benchie): Implementation of Benchmark for Open Information Extraction.
 * [DetIE: Multilingual Open Information Extraction Inspired by Object Detection:](https://github.com/sberbank-ai/DetIE): Implementation of Multilingual Open Information Extraction Inspired by Object Detection.
+* [LILLIE: Information extraction and database integration using linguistics and learning-based algorithms:](https://github.com/OIELILLIE/LILLIE): Implementation of LILLIE: Information extraction and database integration using linguistics and learning-based algorithms.
+* [CompactIE: Compact Facts in Open Information Extraction:](https://github.com/FarimaFatahi/CompactIE): Implementation of CompactIE.
+* [DeepStruct: Pretraining of Language Models for Structure Prediction:](https://github.com/cgraywang/deepstruct): Implementation of DeepStruct: Pretraining of Language Models for Structure Prediction.
+* [Alignment-Augmented Consistent Translation for Multilingual Open Information Extraction:](https://github.com/dair-iitd/moie): Implementation of Alignment-Augmented Consistent Translation for Multilingual Open Information Extraction.
+ 
+
 ## Data
 
 OIE output is used as a useful input in many other downstream tasks, such as question answering, event schema induction or generating inference rules. Moreover, OIE output can be used as a "fuel" to derive further resources. Here, the data is organized into two major categories: 1) OIE corpora; 2) Resources derived from OIE output.
