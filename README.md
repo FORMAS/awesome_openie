@@ -38,7 +38,9 @@ All work is done by Kiril Gashteovski on https://github.com/gkiril/oie-resources
     * [Entity Linking](#entity-linking)
     * [Relation Linking](#relation-linking)
     * [Open Link Prediction](#open-link-prediction)
+    * [Relation Extraction](#relation-extraction)
     * [Relating Entities](#relating-entities)
+    * [Story Comprehension](#story-comprehension)
     * [Video Grounding](#video-grounding)
   * [OIE in Different Languages](#oie-in-different-languages)
     * [OIE Systems for German Language](#oie-systems-for-german-language)
@@ -384,6 +386,10 @@ An OIE system aims to make the following extractions:
 * *["RelVis: Benchmarking OpenIE Systems"](http://ceur-ws.org/Vol-1963/paper527.pdf)* - ISWC 2017
 
   Rudolf Schneider, Tom Oberhauser, Tobias Klatt, Felix A. Gers, Alexander Löser
+  
+* *["A Consolidated Open Knowledge Representation for Multiple Texts"](https://aclanthology.org/W17-0902.pdf)* -  LSDSem@EACL 2017
+
+  Rachel Wities, Vered Shwartz, Gabriel Stanovsky, Meni Adler, Ori Shapira, Shyam Upadhyay, Dan Roth, Eugenio Martínez-Cámara, Iryna Gurevych, Ido Dagan
 
 * *["Open Relation Extraction and Grounding"](http://aclweb.org/anthology/I17-1086)* - IJCNLP 2017
 
@@ -763,7 +769,19 @@ An OIE system aims to make the following extractions:
    
 * [*"OKGIT: Open Knowledge Graph Link Prediction with Implicit Types"*](https://aclanthology.org/2021.findings-acl.225/) - ACL 2021
 
-       Chandrahas, Partha Pratim Talukdar
+   	Chandrahas, Partha Pratim Talukdar
+    
+* [*"Maximal Clique Based Non-Autoregressive Open Information Extraction"*](https://aclanthology.org/2021.emnlp-main.764/) - EMNLP 2021
+
+    Bowen Yu, Yucheng Wang, Tingwen Liu, Hongsong Zhu, Limin Sun, Bin Wang
+    
+* [*"Zero-Shot Information Extraction as a Unified Text to Triple Translation"*](https://aclanthology.org/2021.emnlp-main.94/) - EMNLP 2021 ([code](https://github.com/cgraywang/deepex))
+
+    Chenguang Wang, Xiao Liu, Zui Chen, Haoyun Hong, Jie Tang, Dawn Song
+    
+* [*"Open Knowledge Graphs Canonicalization using Variational Autoencoders"*](https://aclanthology.org/2021.emnlp-main.811/) - EMNLP 2021 ([code](https://github.com/IBM/Open-KG-canonicalization))
+
+    Sarthak Dash, Gaetano Rossiello, Nandana Mihindukulasooriya, Sugato Bagchi, Alfio Gliozzo
    
 * [*"LSOIE: A Large-Scale Dataset for Supervised Open Information Extraction"*](https://aclanthology.org/2021.eacl-main.222/) - EACL 2021 ([code and data](https://github.com/Jacobsolawetz/large-scale-oie)) 
 
@@ -779,7 +797,7 @@ An OIE system aims to make the following extractions:
    
 * [*"Joint Open Knowledge Base Canonicalization and Linking"*](https://dl.acm.org/doi/abs/10.1145/3448016.3452776) - SIGMOD 2021
 
-       Yinan Liu, Wei Shen, Yuanfei Wang, Jianyong Wang, Zhenglu Yang, Xiaojie Yuan
+   	Yinan Liu, Wei Shen, Yuanfei Wang, Jianyong Wang, Zhenglu Yang, Xiaojie Yuan
     
 * [*"TENET: Joint Entity and Relation Linking with Coherence Relaxation"*](https://dl.acm.org/doi/abs/10.1145/3448016.3457280) - SIGMOD 2021
 
@@ -788,6 +806,10 @@ An OIE system aims to make the following extractions:
 * [*"Multi-Grained Dependency Graph Neural Network for Chinese Open Information Extraction"*](https://link.springer.com/content/pdf/10.1007/978-3-030-75768-7_13.pdf) - PAKDD 2021
 
    Zhiheng Lyu, Kaijie Shi, Xin Li, Lei Hou, Juanzi Li, Binheng Song
+   
+* [*"CaSIE: Canonicalize and Informative Selection of the OpenIE system"*](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9458825) - ICDE 2021
+
+   Hao Xin, Xueling Lin, Lei Chen
    
 * *[PENELOPIE: Enabling Open Information Extraction for the Greek Language through Machine Translation"](https://aclanthology.org/2021.eacl-srw.4/)* - Student Research Workshop @ EACL
 
@@ -830,15 +852,23 @@ An OIE system aims to make the following extractions:
 * [*"AnnIE: An Annotation Platform for Constructing Complete Open Information Extraction Benchmark"*](https://aclanthology.org/2022.acl-demo.5/) - ACL 2022 ([code](https://github.com/nfriedri/annie-annotation-platform))
 
    Niklas Friedrich, Kiril Gashteovski, Mingying Yu, Bhushan Kotnis, Carolin Lawrence, Mathias Niepert, Goran Glavaš
+* [*"CompactIE: Compact Facts in Open Information Extraction"*](https://aclanthology.org/2022.naacl-main.65/) - NAACL 2022 ([code](https://github.com/FarimaFatahi/CompactIE))
 
-* [*"A Survey on Neural Open Information Extraction: Current Status and Future Directions"*](https://arxiv.org/pdf/2205.11725.pdf) - CoRR 2022
+   Farima Fatahi Bayat, Nikita Bhutani, H. V. Jagadish
+
+* [*"DetIE: Multilingual Open Information Extraction Inspired by Object Detection"*](https://www.aaai.org/AAAI22Papers/AAAI-8073.VasilkovskyM.pdf) - AAAI 2022 ([code](https://github.com/sberbank-ai/DetIE))
+
+   Michael Vasilkovsky, Anton Alekseev, Valentin Malykh, Ilya Shenbin, Elena Tutubalina, Dmitriy Salikhov, Mikhail Stepnov, Andrey Chertok, Sergey I. Nikolenko
+
+* [*"A Survey on Neural Open Information Extraction: Current Status and Future Directions"*](https://arxiv.org/pdf/2205.11725.pdf) - IJCAI 2022
 
    Shaowen Zhou, Bowen Yu, Aixin Sun, Cheng Long, Jingyang Li, Jian Sun
-
-* *[" DetIE: Multilingual Open Information Extraction Inspired by Object Detection"](https://arxiv.org/abs/2109.06850)* -Proccedings of the 36th AAAI Conference on Artificial Intelligence
-
-   Michael Vasilkovsky, Anton Alekseev, Valentin Malykh, Ilya Shenbin, Elena Tutubalina, Dmitriy Salikhov, Mikhail Stepnov, Andrei Chertok and Sergey Nikolenk
    
+* [*"Open Information Extraction from 2007 to 2022 – A Survey"*](https://arxiv.org/pdf/2208.08690.pdf) - CoRR 2022
+
+   Pai Liu, Wenyang Gao, Wenjie Dong, Songfang Huang, Yue Zhang
+
+ 
 * *[" PortNOIE: A Neural Framework for Open Information Extraction for the Portuguese Language"](https://link.springer.com/chapter/10.1007/978-3-030-98305-5_23)* PROPOR 2022: 15th International Conference on Computational Processing of Portuguese 
 
   Bruno Cabral, Marlo Souza & Daniela Barreiro Claro 
@@ -847,10 +877,6 @@ An OIE system aims to make the following extractions:
 
    Ellery Smith, Dimitris Papadopoulos, Martin Braschler, Kurt Stockinger
   
-* *["CompactIE: Compact Facts in Open Information Extraction"](https://arxiv.org/abs/2205.02880)* - ArXiv 2022
-
-   Farimah Bayat and Nikita Bhutani and H. V. Jagadish
-
 * [*"Alignment-Augmented Consistent Translation for Multilingual Open Information Extraction"*](https://aclanthology.org/2022.acl-long.179/) - ACL 2022
 
   Keshav Kolluru, Mohammed Muqeeth, Shubham Mittal, Soumen Chakrabarti, Mausam
@@ -883,10 +909,15 @@ An OIE system aims to make the following extractions:
 * [*"Multilingual Open Information Extraction: Challenges and Opportunities"*](https://www.preprints.org/manuscript/201905.0029/download/final_file) -  Information 10(7): 228, 2019
 
    Daniela Barreiro Claro, Marlo Souza, Clarissa Castellã Xavier, Leandro Souza de Oliveira
-
-* [*"A Survey on Neural Open Information Extraction: Current Status and Future Directions"*](https://arxiv.org/pdf/2205.11725.pdf) - CoRR 2022
+   
+* [*"A Survey on Neural Open Information Extraction: Current Status and Future Directions"*](https://arxiv.org/pdf/2205.11725.pdf) - IJCAI 2022
 
    Shaowen Zhou, Bowen Yu, Aixin Sun, Cheng Long, Jingyang Li, Jian Sun
+
+* [*"Open Information Extraction from 2007 to 2022 – A Survey"*](https://arxiv.org/pdf/2208.08690.pdf) - CoRR 2022
+
+   Pai Liu, Wenyang Gao, Wenjie Dong, Songfang Huang, Yue Zhang
+
 ### Evaluation
 
 * *["Creating a Large Benchmark for Open Information Extraction"](https://aclweb.org/anthology/D16-1252)* - EMNLP 2016 ([code](https://github.com/gabrielStanovsky/oie-benchmark), [talk](https://vimeo.com/239251034))
@@ -936,7 +967,7 @@ An OIE system aims to make the following extractions:
 * [*"On Aligning OpenIE Extractions with Knowledge Bases: A Case Study"*](https://www.aclweb.org/anthology/2020.eval4nlp-1.14/) ([video](https://slideslive.com/38939720/on-aligning-openie-extractions-with-knowledge-bases-a-case-study), [slides](https://www.uni-mannheim.de/media/Einrichtungen/dws/pi1/opiec/dsa-ota-talk-final.pdf), [resources](https://www.uni-mannheim.de/dws/research/resources/opiec/)) - Eval4NLP@EMNLP 2020
 
    Kiril Gashteovski, Rainer Gemulla, Bhushan Kotnis, Sven Hertling, Christian Meilicke
-  
+   
 * [*"BenchIE: A Framework for Multi-Faceted Fact-Based Open Information Extraction Evaluation"*](https://aclanthology.org/2022.acl-long.307/) - ACL 2022 ([code](https://github.com/gkiril/benchie))
 
    Kiril Gashteovski, Mingying Yu, Bhushan Kotnis, Carolin Lawrence, Mathias Niepert, Goran Glavaš
@@ -948,9 +979,17 @@ OIE's output has been shown to be a useful input for many downstream tasks. In t
 
 #### Question Answering
 
+* [*"Triple-Fact Retriever: An explainable reasoning retrieval model for multi-hop QA problem"*](https://ieeexplore.ieee.org/abstract/document/9835400) - ICDE 2022
+
+   Chengmin Wu, Enrui Hu, Ke Zhan, Lan Luo, Xinyu Zhang, Hao Jiang, Qirui Wang, Zhao Cao, Fan Yu, Lei Chen
+
 * [*"Guiding the Growth: Difficulty-Controllable Question Generation through Step-by-Step Rewriting"*](https://aclanthology.org/2021.acl-long.465/) - ACL 2021
 
    Yi Cheng, Siyao Li, Bang Liu, Ruihui Zhao, Sujian Li, Chenghua Lin, Yefeng Zheng
+   
+* [*"Using Local Knowledge Graph Construction to Scale Seq2Seq Models to Multi-Document Inputs"*](https://aclanthology.org/D19-1428.pdf) - EMNLP 2019
+
+   Angela Fan, Claire Gardent, Chloé Braud, Antoine Bordes
 
 * [*"Assertion-based QA with Question-Aware Open Information Extraction"*](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16705/16170) AAAI 2018
 
@@ -1003,6 +1042,10 @@ OIE's output has been shown to be a useful input for many downstream tasks. In t
 
   Marco Ponza, Luciano Del Corro, Gerhard Weikum
   
+* [*"Using Local Knowledge Graph Construction to Scale Seq2Seq Models to Multi-Document Inputs"*](https://aclanthology.org/D19-1428.pdf) - EMNLP 2019
+
+   Angela Fan, Claire Gardent, Chloé Braud, Antoine Bordes
+  
 * [*"Coherence and Salience-Based Multi-Document Relationship Mining"*](https://www.researchgate.net/publication/332735453_Coherence_and_Salience-Based_Multi-Document_Relationship_Mining) - APWeb-WAIM 2019
 
    Yongpan Sheng, Zenglin Xu
@@ -1024,11 +1067,18 @@ OIE's output has been shown to be a useful input for many downstream tasks. In t
 
    Yumo Xu, Mirella Lapata
    
+* [*"Efficiently Summarizing Text and Graph Encodings of Multi-Document Clusters"*](https://aclanthology.org/2021.naacl-main.380.pdf) - NAACL 2021
+
+   Ramakanth Pasunuru, Mengwen Liu, Mohit Bansal, Sujith Ravi, Markus Dreyer
+   
 * [*"Focus on the Action: Learning to Highlight and Summarize Jointly for Email To-Do Items Summarization"*](https://aclanthology.org/2022.findings-acl.323/) - ACL 2022
 
    Kexun Zhang, Jiaao Chen, Diyi Yang
    
-   
+* [*"FactGraph: Evaluating Factuality in Summarization with Semantic Graph Representations"*](https://aclanthology.org/2022.naacl-main.236/) - NAACL 2022 ([code](https://github.com/amazon-research/fact-graph))
+
+   Leonardo F. R. Ribeiro, Mengwen Liu, Iryna Gurevych, Markus Dreyer, Mohit Bansal
+
 #### Knowledge Base Population
 
 * [*"Pocket Knowledge Base Population"*](https://www.cs.jhu.edu/~mdredze/publications/2017_acl_pocket_kb.pdf) - ACL 2017
@@ -1060,6 +1110,10 @@ OIE's output has been shown to be a useful input for many downstream tasks. In t
 * [*"TENET: Joint Entity and Relation Linking with Coherence Relaxation"*](https://dl.acm.org/doi/abs/10.1145/3448016.3457280) - SIGMOD 2021
 
     Xueling Lin, Lei Chen, Chaorui Zhang
+    
+* [*"Capturing Knowledge in Semantically-typed Relational Patterns to Enhance Relation Linking"*](https://dl.acm.org/doi/pdf/10.1145/3148011.3148031) - K-CAP 2017
+
+    Kuldeep Singh, Isaiah Onando Mulang', Ioanna Lytra, Mohamad Yaser Jaradeh, Ahmad Sakor, Maria-Esther Vidal, Christoph Lange, Sören Auer
    
 #### Open Link Prediction
 
@@ -1070,12 +1124,24 @@ OIE's output has been shown to be a useful input for many downstream tasks. In t
 * [*"Can We Predict New Facts with Open Knowledge Graph Embeddings? A Benchmark for Open Link Prediction"*](https://www.aclweb.org/anthology/2020.acl-main.209/) ([resources](https://www.uni-mannheim.de/dws/research/resources/olpbench/), [video](https://slideslive.com/38929433/can-we-predict-new-facts-with-open-knowledge-graph-embeddings-a-benchmark-for-open-link-prediction)) - ACL 2020
 
    Samuel Broscheit, Kiril Gashteovski, Yanjie Wang, Rainer Gemulla
+   
+#### Relation Extraction
+
+* [*"RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information"*](https://aclanthology.org/D18-1157.pdf) - EMNLP 2018
+
+   Shikhar Vashishth, Rishabh Joshi, Sai Suman Prayaga, Chiranjib Bhattacharyya, Partha Talukdar
 
 #### Relating Entities
 
 * [*"Relating Legal Entities via Open Information Extraction"*](https://link.springer.com/chapter/10.1007/978-3-030-14401-2_17) - MTSR 2018
   
   Giovanni Siragusa, Rohan Nanda, Valeria De Paiva, Luigi Di Caro
+  
+#### Story Comprehension
+
+* [*"Enhanced Story Comprehension for Large Language Models through Dynamic Document-Based Knowledge Graphs"*](https://www.aaai.org/AAAI22Papers/AAAI-10221.AndrusB.pdf) - AAAI 2022
+
+   Berkeley Andrus, Yeganeh Nasiri, Jay Cui, Ben Cullen, Nancy Fulda
   
 #### Video Grounding
 
@@ -1088,6 +1154,19 @@ OIE's output has been shown to be a useful input for many downstream tasks. In t
 Most of the OIE systems are focused on extractions made from text written on English. However, some OIE systems either are focused on a language other than English, or are multilingual. In this section, OIE systems on languages other than English or multilingual OIE systems are listed. 
 
 #### Multilingual OIE Systems
+
+* [*"MILIE: Modular & Iterative Multilingual Open Information Extraction"*](https://aclanthology.org/2022.acl-long.478/) - ACL 2022 
+
+   Bhushan Kotnis, Kiril Gashteovski, Daniel Rubio, Ammar Shaker, Vanesa Rodriguez-Tembras, Makoto Takamoto, Mathias Niepert, Carolin Lawrence
+   
+* [*Alignment-Augmented Consistent Translation for Multilingual Open Information Extraction"*](https://aclanthology.org/2022.acl-long.179/) - ACL 2022 ([code](https://github.com/dair-iitd/moie))
+
+   Keshav Kolluru, Muqeeth Mohammed, Shubham Mittal, Soumen Chakrabarti, Mausam
+
+* [*"DetIE: Multilingual Open Information Extraction Inspired by Object Detection"*](https://www.aaai.org/AAAI22Papers/AAAI-8073.VasilkovskyM.pdf) - AAAI 2022 ([code](https://github.com/sberbank-ai/DetIE)
+
+   Michael Vasilkovsky, Anton Alekseev, Valentin Malykh, Ilya Shenbin, Elena Tutubalina, Dmitriy Salikhov, Mikhail Stepnov, Andrey Chertok, Sergey I. Nikolenko
+
 
 * [*"Multi2OIE: Multilingual Open Information Extraction based on Multi-Head Attention with BERT"*](https://arxiv.org/pdf/2009.08128.pdf) ([code](https://github.com/youngbin-ro/Multi2OIE)) - EMNLP 2020
 
@@ -1310,13 +1389,25 @@ Most of the OIE systems are focused on extractions made from text written on Eng
 
    Tien-Hsuan Wu, Ben Kao, Zhiyong Wu, Xiyang Feng, Qianli Song, Cheng Chen
    
-* [*"Joint Open Knowledge Base Canonicalization and Linking"*](https://dl.acm.org/doi/abs/10.1145/3448016.3452776) - SIGMOD 2021
-
-   	Yinan Liu, Wei Shen, Yuanfei Wang, Jianyong Wang, Zhenglu Yang, Xiaojie Yuan
-   
 * [*"Canonicalizing Open Knowledge Bases with Multi-Layered Meta-Graph Neural Network"*](https://arxiv.org/pdf/2006.09610.pdf) - CoRR 2020
 
    Tianwen Jiang, Tong Zhao, Bing Qin, Ting Liu, Nitesh V. Chawla, Meng Jiang
+   
+* [*"Open Knowledge Graphs Canonicalization using Variational Autoencoders"*](https://aclanthology.org/2021.emnlp-main.811/) - EMNLP 2021 ([code](https://github.com/IBM/Open-KG-canonicalization))
+
+    Sarthak Dash, Gaetano Rossiello, Nandana Mihindukulasooriya, Sugato Bagchi, Alfio Gliozzo
+   
+* [*"Joint Open Knowledge Base Canonicalization and Linking"*](https://dl.acm.org/doi/abs/10.1145/3448016.3452776) - SIGMOD 2021
+
+   	Yinan Liu, Wei Shen, Yuanfei Wang, Jianyong Wang, Zhenglu Yang, Xiaojie Yuan
+    
+* [*"CaSIE: Canonicalize and Informative Selection of the OpenIE system"*](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9458825) - ICDE 2021
+
+   Hao Xin, Xueling Lin, Lei Chen
+   
+* [*"Multi-View Clustering for Open Knowledge Base Canonicalization"*](https://dl.acm.org/doi/pdf/10.1145/3534678.3539449) - KDD 2022
+
+   Wei Shen, Yang Yang, Yinan Liu
 
 
 ## Slides
