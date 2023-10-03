@@ -84,7 +84,7 @@ An OIE system aims to make the following extractions:
   Oren Etzioni, Michele Banko, Michael J. Cafarella
 
 ### 2007
-* *["Open Information Extraction from the Web"](https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-429.pdf)* - IJCAI 2007
+* *["Open Information Extraction from the Web"](https://web.eecs.umich.edu/~michjc/papers/banko_ijcai07.pdf)* - IJCAI 2007
   
   Michele Banko,  Michael J. Cafarella, Stephen Soderland, Matthew Broadhead, Oren Etzioni
   
